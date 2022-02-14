@@ -25,6 +25,8 @@ nav ul li {
 }
 
 
+
+
 .navbar-nav>li>a{
     color: var(--primary-white) !important;
     border-top: 0.1875rem solid rgba(255, 255, 255, 0)!important;
@@ -52,4 +54,16 @@ nav ul li {
   color: white;
   border-color: white;
   font-size: 1.5rem;
+}
+
+
+/*-------Home--------*/
+
+.header-wrapper{
+  position: relative;
+  background: url(./images/pexels-polina-kovaleva-5827829.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
 }
