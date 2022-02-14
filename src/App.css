@@ -1,0 +1,55 @@
+/*---------------Font-----------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body{
+    font-family: "Roboto Condesed" sans-serif;
+}
+
+:root{
+    --primary-white:#fff;
+}
+
+/*---------Menu Link--------*/
+
+nav a.nav-link {
+  font-weight: 600;
+  letter-spacing: 0.037rem;
+  cursor: pointer;
+  margin-right: 3rem;
+}
+
+nav ul li {
+  text-transform: uppercase;
+  
+}
+
+
+.navbar-nav>li>a{
+    color: var(--primary-white) !important;
+    border-top: 0.1875rem solid rgba(255, 255, 255, 0)!important;
+}
+
+.navbar-brand{
+    color: white !important;
+    margin-left: 10rem;
+}
+
+/*------Activeness--------*/
+
+.navbar-nav >li>a.active, .navbar-nav>li>a:focus{
+ 
+  border-top: 0.1875rem solid red!important;
+}
+
+.navbar-nav >li>a:hover{
+ 
+  border-top: 0.1875rem solid orange!important;
+}
+
+/*-----mobile screen tab-------*/
+.navbar-light .navbar-toggler {
+  color: white;
+  border-color: white;
+  font-size: 1.5rem;
+}
