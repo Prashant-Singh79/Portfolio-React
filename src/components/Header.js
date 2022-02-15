@@ -30,8 +30,13 @@ function Header() {
             loop
           />
         </div>
-        <div className="text-danger heading-brief">Wowo</div>
-        <div className="text-danger heading-brief">Wowo</div>
+        <div className="heading-brief">Currently working as Software Engineer at <br/>Nickelfox Technologies</div>
+        <div className="heading-arrow">
+        <a >
+        <img className="insta-img" src={require('../images/arrowdown.png')}  />
+        </a>
+
+        </div>
       </div>
     </div>
   );

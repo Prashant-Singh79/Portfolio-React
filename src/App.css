@@ -84,11 +84,11 @@ nav ul li {
 .heading-social{
   height: 5rem;
   width: 30rem;
-
-  
+  margin: 3rem; 
   margin: 2rem;
   display: flex;
   justify-content: space-evenly;
+
   
 }
 
@@ -100,15 +100,46 @@ nav ul li {
 }
 .instagram{
   cursor: pointer;
+  margin: 3rem;
 }
 
 
 .heading-brief{
-  height: 100px;
-  width: 100px;
-  background-color: red;
-  margin: 10px;
+  height: 5rem;
+  width: 30rem;
+  
+  margin: 3rem;
+  text-align: center;
+  color: ghostwhite;
+  font-size: 1.3rem;
+  border:1px solid rgb(224, 101, 101);
+  border-radius: 10rem;
+  padding: .5rem;
+}
+.heading-arrow{
+ 
+  border: .1rem solid black;
+  padding: .5rem;
+  border-radius: 10rem;
+  background-color: whitesmoke;
+  margin-top: 10rem ;
+  height: 6rem;
+  width: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.heading-arrow:hover{
 
+  height: 6rem;
+  width: 6rem;
+  border: .2rem solid yellow;
+  padding: .5rem;
+  border-radius: 10rem;
+  background-color: white;
+  text-align:center;
+  
 }
 
 .main-info{
@@ -122,7 +153,7 @@ nav ul li {
   right: 0;
   bottom: 0;
   top: 0;
-  background-color: #fff;
+  margin: 3rem;
 
 }
 
@@ -192,37 +223,114 @@ nav ul li {
 
   .header-wrapper{
     position: relative;
-   background: url(./images/fotor_1644925505407.jpg) no-repeat; 
-
+    background: url(./images/fotor_1644925505407.jpg) no-repeat; 
     background-size: cover;
     background-position: center;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: red;
   
-    
-
   }
 
-  .insta-img{
-    height: 3rem;
-    width: 3rem;
+  navbar-brand{
+    width: 90vw;
   }
 
   .heading-social{
-    height: 5rem;
-    width: 15rem;
-  
-    background-color: pink;
-    margin: 2rem;
+    height: 4rem;
+    width: 18rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: red;
+  }  
+
+  .insta-img{
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer ;
+    border-radius: 3rem;
+    background-color: red;
   }
+  .instagram{
+    cursor: pointer;
+    background-color: red;
+   
+  }
+
+  .heading-brief{
+    height: 4rem;
+    width: 18rem;
+    text-align: center;
+    color: ghostwhite;
+    font-size: .8rem;
+    border:1px solid rgb(224, 101, 101);
+    border-radius: 10rem;
+    padding: .5rem;
+    background-color: red;
+  }  
+
+  .heading-arrow{
+ 
+    border: .1rem solid black;
+  background-color: red;
+    border-radius: 10rem;
+    background-color: whitesmoke;
+ 
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .heading-arrow:hover{
+  
+    height: 4rem;
+    width: 4rem;
+    border: .2rem solid yellow;
+    border-radius: 10rem;
+    background-color: white;
+    text-align:center;
+    
+  }
+  .main-info{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Roboto Condesed" sans-serif;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+  
+  }
+
+  .main-info h1{
+    color: rgb(255, 68, 0)!important;
+    text-transform: uppercase;
+    font-size: 2rem;
+    background-color: red;
+  
+    
+  }
+
+  .typed-text{
+    font-size: 1rem;
+    color: var(--primary-white);
+    background-color: red;
+  }
+  
 
 }
 
 #tsparticles{
   position: absolute;
-  height: 10vh;
-  width: 10vw;
+  
   z-index: 1;
 }
